@@ -1,0 +1,38 @@
+{
+    "name": "vscode-slack-dark-theme-2",
+    "displayName": "Slack Dark 2",
+    "description": "Slight Color changes from Slack Dark Theme",
+    "version": "0.0.1",
+    "publisher": "chaddc",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#09131b",
+        "theme": "dark"
+    },
+    "repository": {
+        "url": "https://github.com/chadd123/vscode-slack-dark-2-theme"
+    },
+    "icon": "media/icon.png",
+    "keywords": [
+        "theme",
+        "color-theme",
+        "dark",
+        "slack",
+        "custom",
+        "customization"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slack Dark 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/slack-dark-2.color-theme.json"
+            }
+        ]
+    }
+}
